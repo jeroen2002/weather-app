@@ -3,6 +3,7 @@
     "name": "weather-app",
     "slug": "weather-app",
     "version": "1.0.0",
+    "entryPoint": "index.js",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -21,6 +22,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.jeroen2002.weatherapp"
     }
   }
 }
